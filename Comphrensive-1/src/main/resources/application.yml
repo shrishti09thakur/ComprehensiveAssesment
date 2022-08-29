@@ -1,0 +1,20 @@
+server:
+    port: 8089
+    
+    
+    
+    
+spring:
+  application:
+    name: Patient-Page
+    
+    
+    
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8061/eureka/
+  instance:
+    hostname: localhost
